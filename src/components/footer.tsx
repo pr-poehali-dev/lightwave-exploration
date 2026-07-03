@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail } from "lucide-react"
+import Icon from "@/components/ui/icon"
 
 export function Footer() {
   return (
@@ -8,23 +8,20 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Forex<span className="text-red-500">Pro</span>
+              Своя <span className="text-red-500">Академия</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              Онлайн-школа трейдинга: обучаем зарабатывать на валютном рынке с нуля под руководством практикующих наставников.
+              Своя Академия Трейдинга: обучаем зарабатывать на валютном рынке с нуля под руководством практикующих наставников.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Twitter size={20} />
+              <a href="https://t.me/BinarFoRx" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <Icon name="Send" size={20} />
+              </a>
+              <a href="mailto:ooo.prabotodatel@gmail.com" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <Icon name="Mail" size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Github size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Mail size={20} />
+                <Icon name="Instagram" size={20} />
               </a>
             </div>
           </div>

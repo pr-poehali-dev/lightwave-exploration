@@ -12,7 +12,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="font-orbitron text-xl font-bold text-white">
-              Forex<span className="text-red-500">Pro</span>
+              Своя <span className="text-red-500">Академия</span>
             </h1>
           </div>
 
