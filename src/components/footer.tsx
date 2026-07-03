@@ -59,26 +59,29 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Школа</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Связаться с нами</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  О нас
+                <a
+                  href="https://t.me/BinarFoRx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
+                >
+                  Telegram (@BinarFoRx)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:ooo.prabotodatel@gmail.com"
+                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
+                >
+                  ooo.prabotodatel@gmail.com
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Отзывы
-                </a>
-              </li>
-              <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Наставники
-                </a>
-              </li>
-              <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Контакты
+                  Instagram
                 </a>
               </li>
             </ul>
@@ -88,7 +91,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">2025 ForexPro. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2026 Своя Академия Трейдинга. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"

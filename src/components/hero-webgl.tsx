@@ -114,8 +114,8 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "Forex Pro".split(" ")
-  const subtitle = "Школа трейдинга: от новичка до профессионала."
+  const titleWords = "Своя Академия".split(" ")
+  const subtitle = "Своя Академия Трейдинга: от новичка до профессионала."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
   const [delays, setDelays] = useState<number[]>([])
